@@ -41,9 +41,9 @@ const Header = () =>{
         <div className='cuadrado_blanco'>
         </div>
         <img className="logo" src={compu}/>
-        <h1>Desarrolladora web</h1>
+        <h1 className='homeT'>Desarrolladora web</h1>
         
-        <h2>Jessica Pamela Ortiz Ixcot</h2>
+        <h2 className='homeS'>Jessica Pamela Ortiz Ixcot</h2>
           
         
     </body>
