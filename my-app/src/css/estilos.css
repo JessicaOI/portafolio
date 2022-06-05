@@ -13,13 +13,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.App{
-    display:flex;
-    justify-content: center;
-  }
-
-
-
 .menu {
     background: #FFF;
     border-radius: 50%;
@@ -72,6 +65,12 @@ body {
 input {
     display: none;
 }
+/*esconder los links antes de abrir el menu*/
+input ~ ul {
+    opacity: 0;
+    visibility:hidden;
+    
+}
 
 input:checked ~ label .menu {
     box-shadow: 0 0 0 130vw #FFF, 0 0 0 130vh #FFF;
@@ -90,9 +89,11 @@ input:checked ~ label .hamburger:before {
     transform: rotate(90deg);
     top: 0;
 }
-
+/*mostrar los links antes de abrir el menu*/
 input:checked ~ ul {
     opacity: 1;
+    visibility:visible;
+    
 }
 
 ul {
@@ -144,12 +145,13 @@ a {
 h1 {
     height: 20vh;
     width: 80%;
-    color: white;
+    color: rgb(255, 255, 255);
     position: fixed;
-    left: 0%;
+    left: 34%;
     top: 39%;
     font-weight: 100;
     font-size: 30px;
+    
 }
 
 h2 {
@@ -157,7 +159,7 @@ h2 {
     width: 80%;
     color: white;
     position: fixed;
-    left: -3%;
+    left: 24%;
     top: 30%;
     font-weight: 100;
     font-size: 42px;
@@ -203,4 +205,70 @@ a.tutorial {
     left: 52%;
     /*z-index: 2;*/
     
+}
+
+
+.sm {
+    height: 20vh;
+    width: 80%;
+    color: rgb(223, 154, 108);
+    font-weight: 100;
+    font-size: 50px;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+
+    
+}
+
+h3{
+    height: 50px;
+    width: 500px;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: justify;
+    
+}
+
+
+
+.notaS
+{
+    width: 1100px;
+    position: fixed;
+    left: 0%;
+}
+
+.foto
+{
+    width:300px;
+    position: fixed;
+    left: 18%;
+    top: 39%;
+    transform: rotate(-8deg);
+}
+
+.cuadrado_blanco2{
+    background-color: #ffffff;
+    width: 1600px;
+    height: 810px;
+    position: fixed;
+    left: 8%;
+    top: 10%;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.473);
+
+    /*z-index: 1;*/
+}
+
+
+.tablet{
+    width:300px;
+    position: fixed;
+    left: 18%;
+    top: 39%;
+    transform: rotate(90deg);
 }
