@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5892b880.css",
+    "main.js": "/static/js/main.94101008.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/laberinto.png": "/static/media/laberinto.0b1e62c10fb81239e370.png",
+    "static/media/foto.jpg": "/static/media/foto.2dde3b3e6d3ddc315237.jpg",
+    "static/media/perfil.png": "/static/media/perfil.309e457295747128ed78.png",
+    "static/media/memoria.png": "/static/media/memoria.37c6ab1288e7357c683b.png",
+    "static/media/calculadora.png": "/static/media/calculadora.6399df5c492ec5741419.png",
+    "static/media/Curriculum_Jessica.pdf": "/static/media/Curriculum_Jessica.4987f32372e3fa6f7d4e.pdf",
+    "static/media/note.png": "/static/media/note.8bf9ccd499e0cb58f3bf.png",
+    "static/media/css.png": "/static/media/css.914e403cd8cf47e6a7dd.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.5892b880.css.map": "/static/css/main.5892b880.css.map",
+    "main.94101008.js.map": "/static/js/main.94101008.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5892b880.css",
+    "static/js/main.94101008.js"
+  ]
+}
