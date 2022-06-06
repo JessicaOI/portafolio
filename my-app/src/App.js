@@ -9,6 +9,8 @@ import Yo from './components/Yo.jsx';
 
 import Trabajos from './components/Trabajos.jsx';
 
+import Contactos from './components/Contactos.jsx';
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +20,7 @@ function App() {
                 <Route exact path='/'  element={<Header/>} />
                 <Route exact path='/yo'  element={<Yo/>} />
                 <Route exact path='/trabajos'  element={<Trabajos/>} />
+                <Route exact path='/contac'  element={<Contactos/>} />
                  
             </Routes>
             </BrowserRouter>

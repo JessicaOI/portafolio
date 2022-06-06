@@ -24,7 +24,7 @@ const Yo = () =>{
             <li><a href='/'>Inicio</a></li>
             <li><a href='/yo'>Sobre Mi</a></li>
             <li><a href='/trabajos'>Trabajos</a></li>
-            <li><a href='#'>Contactos</a></li>
+            <li><a href='/contac'>Contactos</a></li>
         </ul>
         
         <div className='cuadrado_blanco2'>
